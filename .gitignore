@@ -1,0 +1,30 @@
+# Ignore CMake build output
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio/MSVC artifacts
+*.sln
+*.vcxproj*
+*.pdb
+*.obj
+*.log
+*.tlog
+*.idb
+*.user
+*.opensdf
+*.sdf
+
+# Ignore VS Code project settings
+.vscode/
+
+# Ignore Windows/OS files
+Thumbs.db
+.DS_Store
+*.exe
+
+# Ignore other temp files
+*.bak
+*.swp
